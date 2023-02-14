@@ -1,0 +1,7 @@
+# untracked files
+preload.sh
+
+# untracked folders
+__pycache__
+myenv
+Ubereats

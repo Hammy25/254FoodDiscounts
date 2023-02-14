@@ -1,0 +1,4 @@
+# Cron jobs
+
+# 1 Execute the daily scrape and tweeting at noon EAT
+30 09 * * * BASH_ENV=/home/ubuntu/tweet_bots/bots/preload.sh /usr/bin/python3 /home/ubuntu/tweet_bots/bots/main.py > /home/ubuntu/tweet_bots/bots/output.txt 2>&1
